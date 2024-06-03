@@ -1,0 +1,46 @@
+:card-color {
+    --background-color: #FFF;
+    --text-color: #000;
+}
+
+.card {
+    background-color: var(--background-color);
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px black;
+    transition-duration: 1s;
+}
+
+.image {
+    width: 350px;
+    height: 220px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    margin: 0px;
+
+}
+
+.text-content {
+    padding-inline: 10px;
+    padding-block: 5px;
+    margin: 0px;
+
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-block: 0px;
+    color: var(--text-color);
+    transition-duration: 1s;
+}
+
+.text {
+    font-size: 15px;
+    margin-top: 5px;
+    color: var(--text-color);
+    transition-duration: 1s;
+}

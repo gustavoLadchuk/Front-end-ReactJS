@@ -1,6 +1,10 @@
 import './App.css';
+import Card from './components/Card';
 
 function App() {
+
+
+
   return (
     <div>
       <div class="head">
@@ -41,6 +45,17 @@ function App() {
               Skip or cancel anytime.</div>
           </div>
         </div>
+      </div>
+
+      <div class="cards">
+        <Card titulo="Jinx" texto="Um gato com olhos grandes"
+          imagem="https://i1.sndcdn.com/artworks-88qoaq5SJosdzYZO-6j9tGQ-t500x500.jpg" />
+
+        <Card titulo="Big Floppa" texto="Um caracal domesticado"
+          imagem="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0U8QNPMQe9328hbMn_mQogPUATpV01LmsvA&s" />
+
+        <Card titulo="Maxwell" texto="Gato preto e branco"
+          imagem="https://i1.sndcdn.com/artworks-oGvaMt0dsBWPL7WZ-qgbAMA-t500x500.jpg" />
       </div>
 
       <footer>
