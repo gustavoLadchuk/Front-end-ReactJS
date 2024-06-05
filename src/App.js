@@ -1,5 +1,6 @@
 import './App.css';
 import Card from './components/Card';
+import Timer from './components/Timer';
 
 function App() {
 
@@ -47,6 +48,7 @@ function App() {
         </div>
       </div>
 
+      {/* TDE  04*/}
       <div class="cards">
         <Card titulo="Jinx" texto="Um gato com olhos grandes"
           imagem="https://i1.sndcdn.com/artworks-88qoaq5SJosdzYZO-6j9tGQ-t500x500.jpg" />
@@ -57,6 +59,9 @@ function App() {
         <Card titulo="Maxwell" texto="Gato preto e branco"
           imagem="https://i1.sndcdn.com/artworks-oGvaMt0dsBWPL7WZ-qgbAMA-t500x500.jpg" />
       </div>
+
+      {/* TDE  06*/}
+      <Timer />
 
       <footer>
         <div class="footer">
